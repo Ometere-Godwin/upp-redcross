@@ -417,7 +417,7 @@ function App() {
       title: "Pad UP Project",
       status: "Active Project",
       description: "A menstrual hygiene initiative providing free sanitary pads to secondary school girls, coupled with educational programs on menstrual health and hygiene management.",
-      image: "/pad-up-project.jpg",
+      image: "/pad-up.jpeg",
       metrics: {
         value: "2,000+",
         label: "Girls Supported"
@@ -960,7 +960,7 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                   className="rounded-lg shadow-xl"
                 />
                 <div className="absolute -bottom-6 -left-6 bg-white p-6 rounded-lg shadow-lg">
-                  <div className="text-4xl font-bold text-red-600 mb-2">7+</div>
+                  <div className="text-4xl font-bold text-red-600 mb-2">9</div>
                   <div className="text-gray-600">Years of Service</div>
                 </div>
               </div>
@@ -1112,7 +1112,7 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
               <div className="bg-white rounded-lg shadow-lg overflow-hidden">
                 <div className="relative h-64">
                   <img
-                    src="https://images.unsplash.com/photo-1596526131083-e8c4628902d4a?ixlib=rb-1.2.1&auto=format&fit=crop&w=1200&q=80"
+                    src="/assets/pad-up.jpeg"
                     alt="Pad UP Project"
                     className="w-full h-full object-cover"
                   />
@@ -1312,7 +1312,7 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                   <div className="text-gray-300">Communities</div>
                 </div>
                 <div className="text-center">
-                  <div className="text-4xl font-bold text-red-500 mb-2">7+</div>
+                  <div className="text-4xl font-bold text-red-500 mb-2">9</div>
                   <div className="text-gray-300">Years of Impact</div>
                 </div>
               </div>
@@ -1349,10 +1349,11 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                   <div key={event.id} className="bg-white rounded-lg shadow-md overflow-hidden">
                     {event.image && (
                       <div className="relative h-48">
-                        <img
+                        <Image
                           src={event.image}
                           alt={event.title}
                           className="w-full h-full object-cover"
+                          fill
                         />
                       </div>
                     )}
@@ -1447,6 +1448,7 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                       src="https://images.unsplash.com/photo-1593113598332-cd288d649433?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80"
                       alt="Medical camp"
                       className="w-full h-full object-cover transform group-hover:scale-105 transition-transform duration-300"
+                      
                     />
                   </div>
                   <div className="p-6">
@@ -1553,7 +1555,7 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                   <Phone size={18} className="mr-2" /> +234 813 762 7522
                 </p>
                 <p className="flex items-center">
-                  <Mail size={18} className="mr-2" /> contact@upp.org
+                  <Mail size={18} className="mr-2" /> uppcrossers@gmail.com
                 </p>
               </div>
             </div>
