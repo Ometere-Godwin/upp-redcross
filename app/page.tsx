@@ -1543,11 +1543,11 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
               <h4 className="text-xl font-bold mb-4">Contact</h4>
               <div className="space-y-2">
                 <p className="flex items-center">
-                  <MapPin size={18} className="mr-2" /> Treatment Room,
+                  <MapPin size={18} className="mr-2" /> Treatment Room, Hall 3,
                   University of Benin, Benin, Nigeria
                 </p>
                 <p className="flex items-center">
-                  <Phone size={18} className="mr-2" /> +234 XXX XXX XXXX
+                  <Phone size={18} className="mr-2" /> +234 813 762 7522
                 </p>
                 <p className="flex items-center">
                   <Mail size={18} className="mr-2" /> contact@upp.org
