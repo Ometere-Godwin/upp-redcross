@@ -857,7 +857,10 @@ Successfully trained over 5,000 individuals in life-saving techniques and emerge
                 className="object-cover z-10"
                 priority
               />
-              <span className="text-xl font-bold">Uniben Past and Present</span>
+              <div>
+                <span className="text-xl font-bold md:hidden">UPP</span>
+                <span className="text-xl font-bold hidden md:block">Uniben Past and Present</span>
+              </div>
             </div>
 
             {/* Desktop Menu */}
